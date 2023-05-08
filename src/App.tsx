@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+    <div>
+      <div>
+        <h1 className="text-red-500">New App</h1>
+        <p className="text-gray-800">
+          Introducing our new template app - the ultimate solution for creating beautiful and
+          functional mobile apps in no time! With this app, you can easily build a custom app for
+          your business, organization, or personal use.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
