@@ -1,7 +1,7 @@
 import React, { RefObject, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../redux/store';
-import { changeIncrementAmount, decrement, increment } from '../redux/reducers/counterReducer';
+import { RootState } from '../../redux/store';
+import { changeIncrementAmount, decrement, increment } from '../../redux/reducers/counterReducer';
 import { Link } from 'react-router-dom';
 
 function Counter() {
